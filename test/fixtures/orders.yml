@@ -1,0 +1,32 @@
+# == Schema Information
+#
+# Table name: orders
+#
+#  id         :integer          not null, primary key
+#  status     :integer
+#  invoice_id :integer
+#  product_id :integer
+#  user_id    :integer
+#  qty        :integer
+#  total_cost :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: 1
+  invoice: one
+  product: one
+  user: one
+  qty: 1
+  total_cost: 
+
+two:
+  status: 1
+  invoice: two
+  product: two
+  user: two
+  qty: 1
+  total_cost: 

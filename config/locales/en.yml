@@ -1,0 +1,47 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  error_message:
+    invalid_token: 'Access Denied: Invalid or expired token'
+    insufficient_amount: 'Insufficient amount'
+    restricted_access: 'Restricted access'
+  exception_message:
+    not_found: 'Not found'
+    something_went_wrong: 'Internal server errror!'
+  success_message:
+    deposit_success: 'Deposit success'
+    withdraw_success: 'Withdraw success'
+  customer:
+    successfully_registered: 'Successfully registered!'
+    successfully_updated: 'Successfully updated!'
+  role:
+    access_denied: 'Role restrictions!'
